@@ -1,0 +1,43 @@
+{
+  "name": "rollup-init",
+  "version": "1.0.0",
+  "description": "Initialise a Rollup project",
+  "main": "dist/rollup-init.cjs.js",
+  "module": "dist/rollup-init.es.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "mocha",
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rollup/rollup-init.git"
+  },
+  "dependencies": {
+    "promzard": "^0.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.3.1",
+    "eslint-plugin-import": "^1.13.0",
+    "rollup": "^0.34.10",
+    "rollup-plugin-buble": "^0.13.0"
+  },
+  "keywords": [
+    "Rollup",
+    "scaffolding",
+    "bundling",
+    "bundler",
+    "modules"
+  ],
+  "author": "Rich Harris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rollup/rollup-init/issues"
+  },
+  "homepage": "https://github.com/rollup/rollup-init#readme"
+}
