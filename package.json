@@ -14,10 +14,7 @@
     "dev": "rollup -c -w",
     "prepublish": "npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rollup/rollup-init.git"
-  },
+  "repository": "rollup/rollup-init",
   "dependencies": {
     "promzard": "^0.3.0"
   },
